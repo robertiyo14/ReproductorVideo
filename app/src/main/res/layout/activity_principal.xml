@@ -3,9 +3,15 @@
     android:layout_height="match_parent"
     tools:context=".Principal">
 
-    <VideoView
+    <FrameLayout
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:id="@+id/vv" />
+        android:layout_height="fill_parent">
+
+        <VideoView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/videoView"
+            android:layout_gravity="center" />
+    </FrameLayout>
 
 </RelativeLayout>
